@@ -79,3 +79,28 @@
   make install
   ```
 
+9. Build and run samples:
+
+  - Alternative 1, using `qmake` only:
+
+    ```
+    cd sample
+    mkdir build
+    cd build
+    <Qt-install-path>/5.3/gcc_64/bin/qmake ..
+    make -j 5
+    ./sample
+    ```
+
+  - Alternative 2, using QtCreator:
+
+    ```
+    <Qt-install-path/Tools/QtCreator/bin/qtcreator
+    ```
+
+    1. Click `Open Project`
+    2. Open sample's `.pro` file
+    3. Choose `Desktop Qt 5.3 GCC 64bit` only
+    4. Click `Configure Project`
+    5. Click run button (green arrow) in the bottom left part
+
