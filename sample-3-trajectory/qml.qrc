@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/main.qml</file>
+        <file>qml/Trajectory.qml</file>
+        <file>qml/LineSegment.qml</file>
+        <file>assets/models/thymio/thymio.dae</file>
+    </qresource>
+</RCC>
+
