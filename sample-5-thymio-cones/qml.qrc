@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/main.qml</file>
+        <file>assets/models/thymio/thymio.dae</file>
+        <file>assets/models/cone/cone.dae</file>
+        <file>assets/images/irSensorsOFF.png</file>
+        <file>assets/images/irSensorsON.png</file>
+    </qresource>
+</RCC>
+
